@@ -1,0 +1,89 @@
+HashMap
+	•	put(K key, V value) → Inserts/updates a key-value pair.
+	•	putIfAbsent(K key, V value) → Adds value only if key not already mapped.
+	•	get(Object key) → Returns value for given key, or null if absent.
+	•	getOrDefault(Object key, V defaultValue) → Returns value if key exists, else default.
+	•	containsKey(Object key) → Checks if key exists.
+	•	containsValue(Object value) → Checks if value exists.
+	•	remove(Object key) → Removes mapping for given key.
+	•	remove(Object key, Object value) → Removes entry only if key maps to value.
+	•	replace(K key, V value) → Replaces value for key if present.
+	•	replace(K key, V oldValue, V newValue) → Replaces value only if current value matches oldValue.
+	•	keySet() → Returns all keys as a Set.
+	•	values() → Returns all values as a Collection.
+	•	entrySet() → Returns all key-value pairs as a Set.
+	•	size() → Returns number of entries.
+	•	isEmpty() → Checks if map is empty.
+	•	clear() → Removes all entries.
+	•	forEach(BiConsumer) → Performs action on each entry.
+	•	compute(K key, BiFunction) → Updates value using function for key.
+	•	computeIfAbsent(K key, Function) → Computes value if key not present.
+	•	computeIfPresent(K key, BiFunction) → Updates value if key already present.
+	•	merge(K key, V value, BiFunction) → Merges new value with existing one.
+
+⸻
+
+LinkedHashMap (same as HashMap + maintains insertion order)
+
+(All functions same as HashMap with same meaning, but order of insertion preserved.)
+
+⸻
+
+TreeMap
+
+(All HashMap methods + sorted order + navigation)
+	•	firstKey() → Returns smallest key.
+	•	lastKey() → Returns largest key.
+	•	higherKey(K key) → Returns least key strictly greater than given.
+	•	lowerKey(K key) → Returns greatest key strictly less than given.
+	•	ceilingKey(K key) → Returns least key ≥ given.
+	•	floorKey(K key) → Returns greatest key ≤ given.
+	•	pollFirstEntry() → Removes and returns first entry.
+	•	pollLastEntry() → Removes and returns last entry.
+	•	subMap(K fromKey, K toKey) → Returns portion of map between two keys.
+	•	headMap(K toKey) → Returns map of keys less than toKey.
+	•	tailMap(K fromKey) → Returns map of keys greater than or equal to fromKey.
+
+⸻
+
+HashSet
+	•	add(E e) → Inserts element if not present.
+	•	addAll(Collection c) → Adds all elements from collection.
+	•	remove(Object o) → Removes element if present.
+	•	removeAll(Collection c) → Removes all elements from given collection.
+	•	clear() → Removes all elements.
+	•	contains(Object o) → Checks if element exists.
+	•	containsAll(Collection c) → Checks if all given elements exist.
+	•	isEmpty() → Checks if set is empty.
+	•	size() → Returns number of elements.
+	•	iterator() → Returns iterator over elements.
+	•	toArray() → Converts set to array.
+	•	toArray(T[] a) → Converts set to array of specific type.
+	•	retainAll(Collection c) → Keeps only common elements with given collection.
+	•	forEach(Consumer) → Performs action on each element.
+	•	spliterator() → Returns Spliterator for parallel iteration.
+	•	stream() → Returns sequential Stream of elements.
+	•	parallelStream() → Returns parallel Stream of elements.
+
+⸻
+
+LinkedHashSet
+
+(All HashSet methods with same meaning, but maintains insertion order.)
+
+⸻
+
+TreeSet
+
+(All HashSet methods + sorted order + navigation)
+	•	first() → Returns smallest element.
+	•	last() → Returns largest element.
+	•	higher(E e) → Returns least element strictly greater than given.
+	•	lower(E e) → Returns greatest element strictly less than given.
+	•	ceiling(E e) → Returns least element ≥ given.
+	•	floor(E e) → Returns greatest element ≤ given.
+	•	pollFirst() → Removes and returns first element.
+	•	pollLast() → Removes and returns last element.
+	•	subSet(E fromElement, E toElement) → Returns portion of set between two elements.
+	•	headSet(E toElement) → Returns elements less than given element.
+	•	tailSet(E fromElement) → Returns elements greater than or equal to given element.
