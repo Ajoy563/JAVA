@@ -1,0 +1,19 @@
+ArrayList
+
+	ArrayList<object> list = new ArrayList<>();
+
+	Here, Objects = Integer, String, Boolean, Character etc.
+
+Operations On ArrayList:-
+
+1. Add element O(1) ---> list.add(2);
+
+2. Get element O(1) ---> list.get(2); //index position
+
+3. Remove element O(n) ---> list.remove(2); //index position
+
+4. Set/Update element at index O(n) ---> list.set(2, 10); //(idx pos, new value)
+
+5. Contains element O(n) ---> list.contains(1); //Give true or false
+
+6. Insert element in particular position O(n) ---> list.add(1, 9); //(idx pos, value)
