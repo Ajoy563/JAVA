@@ -17,3 +17,16 @@ Operations On ArrayList:-
 5. Contains element O(n) ---> list.contains(1); //Give true or false
 
 6. Insert element in particular position O(n) ---> list.add(1, 9); //(idx pos, value)
+
+7. Get the size of ArrayList ---> list.size();
+
+
+2D ArrayList
+
+	ArrayList<ArrayList<object>> mainList = new ArrayList<>();
+	Here, Objects = Integer, String, Boolean, Character etc.
+Eg:-
+	ArrayList<Integer> list = new ArrayList<>();
+	//list = [1, 3, 5, 7, 9]
+	mainList.add(list);
+OUTPUT of mainList = [[1, 3, 5, 7, 9]]
