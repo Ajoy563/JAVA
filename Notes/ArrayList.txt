@@ -1,4 +1,4 @@
-ArrayList
+----ArrayList-----
 
 	ArrayList<object> list = new ArrayList<>();
 
@@ -21,7 +21,7 @@ Operations On ArrayList:-
 7. Get the size of ArrayList ---> list.size();
 
 
-2D ArrayList
+----2D ArrayList----
 
 	ArrayList<ArrayList<object>> mainList = new ArrayList<>();
 	Here, Objects = Integer, String, Boolean, Character etc.
@@ -30,3 +30,23 @@ Eg:-
 	//list = [1, 3, 5, 7, 9]
 	mainList.add(list);
 OUTPUT of mainList = [[1, 3, 5, 7, 9]]
+
+
+----Insert Data in the form of Nested ArrayList----
+	//[[MUC, LHR], [JFK, MUC], [SFO, SJC], [LHR, SFO]]
+        List<List<String>> tickets = Arrays.asList(
+            Arrays.asList("MUC", "LHR"),
+            Arrays.asList("JFK", "MUC"),
+            Arrays.asList("SFO", "SJC"),
+            Arrays.asList("LHR", "SFO")
+        );
+        HashMap<String, String> map = new HashMap<>();
+        for(List<String> ticket: tickets) {
+            map.put(ticket.get(0), ticket.get(1));
+        }
+
+	sout(tickets);
+	OUTPUT:- [[MUC, LHR], [JFK, MUC], [SFO, SJC], [LHR, SFO]]
+
+	sout(map);
+	OUTPUT:- {LHR=SFO, MUC=LHR, SFO=SJC, JFK=MUC}
