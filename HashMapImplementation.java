@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.ArrayList;
 public class HashMapImplementation {
     static class HashMap<K,V> { //K and V be any datatype, create by programmar
         private class Node { 

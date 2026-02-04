@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class binarySrh {
     public static int BinarySearch(int arr[], int lb, int ub, int x) {
         if(lb < ub) {
@@ -33,5 +33,6 @@ public class binarySrh {
         else {
             System.out.println("Element found at: " + index);
         }
+        sc.close();
     }
 }
