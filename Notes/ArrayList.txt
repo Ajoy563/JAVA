@@ -1,0 +1,30 @@
+1.	add(E e) → Adds element at the end.
+2.	add(int index, E element) → Inserts element at specified index.
+3.	addAll(Collection c) → Adds all elements of another collection.
+4.	addAll(int index, Collection c) → Adds collection at specified index.
+5.	get(int index) → Returns element at given index.
+6.	set(int index, E element) → Replaces element at given index.
+7.	remove(int index) → Removes element at given index.
+8.	remove(Object o) → Removes specified element.
+9.	removeAll(Collection c) → Removes all matching elements of given collection.
+10.	retainAll(Collection c) → Keeps only specified collection elements.
+11.	clear() → Removes all elements.
+12.	size() → Returns number of elements.
+13.	isEmpty() → Checks if list is empty.
+14.	contains(Object o) → Checks if element exists.
+15.	containsAll(Collection c) → Checks if all elements exist.
+16.	indexOf(Object o) → Returns first occurrence index.
+17.	lastIndexOf(Object o) → Returns last occurrence index.
+18.	iterator() → Returns iterator for traversal.
+19.	listIterator() → Returns list iterator.
+20.	subList(int from, int to) → Returns portion of list.
+21.	toArray() → Converts list to array.
+22.	forEach(Consumer action) → Performs action on each element.
+23.	replaceAll(UnaryOperator operator) → Replaces each element using operator.
+24.	sort(Comparator c) → Sorts the list.
+25.	ensureCapacity(int minCapacity) → Increases internal capacity.
+26.	trimToSize() → Trims capacity to current size.
+27.	clone() → Returns shallow copy of list.
+28.	equals(Object o) → Compares two lists.
+29.	hashCode() → Returns hash code value.
+30.	spliterator() → Returns spliterator for parallel traversal.
