@@ -1,15 +1,20 @@
 
 public class test {
     public static void main(String[] args) {
-        // QueueLL q = new QueueLL();
-        java.util.Queue<Integer> q = new java.util.LinkedList<>();
-        q.add(1);
-        q.add(2);
-        q.add(3);
-
-        while (!q.isEmpty()) {
-            System.out.println(q.peek());
-            q.remove();
+        int arr[] = {0, 3, 0, 0, 9, 2, 0, 4};
+        int index = 0;
+        for(int i=0; i<arr.length; i++) {
+            if(arr[i] != 0) {
+                arr[index] = arr[i];
+                index++;
+            }
+        }
+        while (index < arr.length) {
+            arr[index] = 0;
+            index++;
+        }
+        for(int i=0; i<arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
 }
