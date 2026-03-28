@@ -1,0 +1,133 @@
+1. HashMap
+
+Definition: Stores key-value pairs with no ordering.
+
+    HashMap<KeyType, ValueType> map = new HashMap<>();
+
+Properties:
+	•	No order maintained
+	•	Allows one null key and multiple null values
+	•	Not synchronized (not thread-safe)
+	•	Uses hashing for storage
+
+Functions:
+	•	put(K key, V value) → Insert element
+	•	get(Object key) → Get value
+	•	remove(Object key) → Delete entry
+	•	containsKey(Object key) → Check key
+	•	containsValue(Object value) → Check value
+	•	keySet() → Returns all keys
+	•	values() → Returns all values
+	•	size() → Number of entries
+=====================================================================
+
+2. LinkedHashMap
+
+Definition: HashMap that maintains insertion order.
+
+    LinkedHashMap<KeyType, ValueType> map = new LinkedHashMap<>();
+
+Properties:
+	•	Maintains insertion order
+	•	Allows one null key and multiple null values
+	•	Not synchronized
+	•	Slightly slower than HashMap
+
+Functions:
+	•	put(K key, V value) → Insert element
+	•	get(Object key) → Get value
+	•	remove(Object key) → Delete entry
+	•	containsKey(Object key) → Check key
+	•	entrySet() → Returns key-value pairs
+	•	keySet() → Ordered keys
+
+=====================================================================
+
+3. TreeMap
+
+Definition: Stores key-value pairs in sorted order of keys.
+
+    TreeMap<KeyType, ValueType> map = new TreeMap<>();
+
+Properties:
+	•	Sorted (ascending order)
+	•	Does not allow null key
+	•	Not synchronized
+	•	Based on Red-Black Tree
+
+Functions:
+	•	put(K key, V value) → Insert element
+	•	get(Object key) → Get value
+	•	remove(Object key) → Delete entry
+	•	firstKey() → Smallest key
+	•	lastKey() → Largest key
+	•	higherKey(K key) → Next greater key
+	•	lowerKey(K key) → Next smaller key
+
+=====================================================================
+
+4. HashSet
+
+Definition: Collection of unique elements with no order.
+
+        HashSet<Type> set = new HashSet<>();
+
+Properties:
+	•	No order maintained
+	•	Allows one null element
+	•	No duplicate elements
+	•	Not synchronized
+
+Functions:
+	•	add(E e) → Add element
+	•	remove(Object o) → Remove element
+	•	contains(Object o) → Check element
+	•	size() → Number of elements
+	•	isEmpty() → Check empty
+
+=====================================================================
+
+5. LinkedHashSet
+
+Definition: HashSet that maintains insertion order.
+
+    LinkedHashSet<Type> set = new LinkedHashSet<>();
+
+Properties:
+	•	Maintains insertion order
+	•	Allows one null element
+	•	No duplicates
+	•	Not synchronized
+
+Functions:
+	•	add(E e) → Add element
+	•	remove(Object o) → Remove element
+	•	contains(Object o) → Check element
+	•	iterator() → Iterate in order
+
+=====================================================================
+
+6. TreeSet
+
+Definition: Stores unique elements in sorted order.
+
+        TreeSet<Type> set = new TreeSet<>();
+
+Properties:
+	•	Sorted (ascending order)
+	•	Does not allow null element
+	•	No duplicates
+	•	Not synchronized
+	•	Based on Red-Black Tree
+
+Functions:
+	•	add(E e) → Add element
+	•	remove(Object o) → Remove element
+	•	first() → Smallest element
+	•	last() → Largest element
+	•	higher(E e) → Next greater element
+	•	lower(E e) → Next smaller element
+
+* Synchronized means the collection provides thread-safe access by allowing only one thread at a time.
+
+* Not synchronized means the collection does not provide thread safety for concurrent access.
