@@ -41,7 +41,7 @@ public class ConnectingCities {
         return finalCost;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //O(ElogE)
         int cities[][] = {{0, 1, 2, 3, 4},
                           {1, 0, 5, 0, 7},
                           {2, 5, 0, 6, 0},
