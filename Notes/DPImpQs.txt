@@ -1,0 +1,67 @@
+-----Fibonacci-----
+
+* Climbing Stairs
+
+* Number Factors
+
+* Min Jumps to reach the end
+
+* Min Jumps with cost
+
+* House thief
+
+----Unbounded Knapsack----
+
+* Rod Cutting
+
+* Coin Change
+
+* Min Coin Change
+
+* Max Ribbon Cut
+
+----0-1 Knapsack----
+
+* Subset Sum
+
+* Equal Subset Sum partition
+
+* Min Subset Sum Difference
+
+* Count of Subset Sum
+
+* Target Sum
+
+----LCS (Longest Common Subsequence)-----
+
+* Longest Common Substring
+
+* Edit Distance
+
+* Box Stacking
+
+* Longest Increasing Subsequence
+
+* Longest Bitonic Subsequence
+
+* Subsequence Pattern Matching
+
+* Min Add/ Delete to convert one string to another
+
+-----Catalan Number----
+
+* No. of BSTs
+
+* N Parentheses
+
+* Convex Polygons
+
+* Disjoint Chords
+
+* Catalan Triangle
+
+* Mountain Ranges
+
+* Dyck Words
+
+
