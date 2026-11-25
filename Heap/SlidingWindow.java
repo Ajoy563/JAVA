@@ -26,7 +26,7 @@ public class SlidingWindow {
             pq.add(new Pair(arr[i], i));
         }
         res[0] = pq.peek().val;
-
+        
         for(int i=k; i<n; i++) { 
             while (pq.size() > 0 && pq.peek().idx <= (i-k)) {
                 pq.remove();
